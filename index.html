@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>D&C</title>
+    <link rel="shortcut icon" type="imagex/png" href="Imagens/logo.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-div">
+          <img src="Imagens/modelo-de-design-de-logotipo-dc_523404-703-removebg-preview.png" alt="" width="110" height="90" class="img-nav">
+          <h1 class="titulo-nav">Departamento & Compania</h1>
+        </div>
+        <div class="div-pesquisa">
+            <input id="barra_pesquisa" onkeyup="pesquisar_itens()" type="text" placeholder="Pesquisa em D&C" class="input-pesquisa">
+        </div>
+        <div class ="div-cadastro">
+          <label class="textos-cadastro">Novo por aqui?</label>
+          <button class="btn-cadastro"><a href="cadastro.html" target="_blank">Cadastre-se</a></button>
+        </div>
+      </nav>
+    <div id="lista-Geral" class="div-total">
+    </div>
+    <script type="module" src="api.js"></script>
+</body>
+</html>
